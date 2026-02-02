@@ -1,0 +1,22 @@
+# sudoku-extractor
+# 从数独图片中提取数字，输出到 Excel
+
+# 图像处理
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# OCR - 本地方案
+# 方案1: PaddleOCR (推荐，精度高)
+paddlepaddle>=2.5.0
+paddleocr>=2.7.0
+
+# 备选方案: EasyOCR (PyTorch-based)
+# easyocr>=1.7.0
+# torch>=2.0.0
+
+# Excel 输出
+openpyxl>=3.1.0
+
+# 工具
+tqdm>=4.65.0
